@@ -1,21 +1,21 @@
-let numeroA = parseFloat(prompt("Insira o primeiro número"));
+let numeroA = parseInt(prompt("Insira o primeiro número"));
 validador = isNaN(numeroA);
 while (validador){
-    numeroA = parseFloat(prompt("não é um número, insira novamente"));
+    numeroA = parseInt(prompt("não é um número, insira novamente"));
     validador = isNaN(numeroA);
 }
 
-let numeroB = parseFloat(prompt("Insira o segundo número"));
+let numeroB = parseInt(prompt("Insira o segundo número"));
 validador = isNaN(numeroB);
 while (validador){
-    numeroB = parseFloat(prompt("não é um número, insira novamente"));
+    numeroB = parseInt(prompt("não é um número, insira novamente"));
     validador = isNaN(numeroB);
 }
 
-let numeroC = parseFloat(prompt("Insira o terceiro número"));
+let numeroC = parseInt(prompt("Insira o terceiro número"));
 validador = isNaN(numeroC);
 while (validador){
-    numeroC = parseFloat(prompt("não é um número, insira novamente"));
+    numeroC = parseInt(prompt("não é um número, insira novamente"));
     validador = isNaN(numeroC);
 }
 
